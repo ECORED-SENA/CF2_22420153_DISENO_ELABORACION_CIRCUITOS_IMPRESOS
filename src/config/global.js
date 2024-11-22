@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diseño de circuito esquemático mediante CAD',
+    descripcionCurso:
+      'Las herramientas CAD apoyan el diseño de circuitos impresos (PCB) en etapas esquemáticas y físicas, permitiendo definir componentes y conexiones mediante simulación y análisis. Estas herramientas, cada vez más accesibles por sus interfaces gráficas, simplifican el diseño para usuarios con conocimientos básicos. Diversos <i>software</i> como Eagle, Orcad y Multisim ofrecen versiones gratuitas y opciones para agregar componentes personalizados.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,27 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Diseño Asistido por Computador (CAD) para circuitos impresos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema2',
+        numero: '2',
+        titulo: 'Descarga e instalación de Autodesk Eagle',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Herramientas básicas del <i>software</i> en la ventana Schematic',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Herramientas del costado lateral',
+            hash: 't_1_2',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [

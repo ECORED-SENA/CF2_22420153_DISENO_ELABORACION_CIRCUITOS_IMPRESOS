@@ -1,20 +1,74 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 40%
+    right: 10%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 80%
+    right: 40%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 450px
+  @media screen and ( max-width: $bp-max-lg )
+    width: 400px
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.banner-interno__titulo__icono i
+  color: $color-primario !important
+
+.tabla-a th
+  background-color: #FFA3D9
+
+a:hover
+  color: $color-primario
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #FFD9EF
+.bloque-texto-a.color-acento-contenido:before
+  background-color: #FFF5FA
+
+.bg
+  &-c1
+    background-color: #EDF3FB
+  &-c2
+    background-color: #F2ECE2
+    border-radius: 15px
+  &-c3
+    background-color: #DDE9F7
+  &-c4
+    background-image: url(../assets/curso/tema1/img2.svg)
+    background-repeat: repeat-x
+    background-position: center
+    @media screen and ( max-width: $bp-max-md )
+      background-repeat: repeat
+  &-c5
+    background-image: url(../assets/curso/tema1/img2.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-size: contain
+    background-position: center
+  &-c6
+    background-color: #23E8DA
+    border-radius: 15px

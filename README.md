@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **Diseño de circuito esquemático mediante CAD**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_22420153_DISENO_ELABORACION_CIRCUITOS_IMPRESOS/](https://ecored-sena.github.io/CF2_22420153_DISENO_ELABORACION_CIRCUITOS_IMPRESOS/)
 
 #
 
