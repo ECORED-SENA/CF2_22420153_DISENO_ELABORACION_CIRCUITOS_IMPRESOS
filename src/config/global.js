@@ -46,15 +46,15 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
+            numero: '2.1',
             titulo:
               'Herramientas básicas del <i>software</i> en la ventana Schematic',
-            hash: 't_1_1',
+            hash: 't_2_1',
           },
           {
-            numero: '1.2',
+            numero: '2.2',
             titulo: 'Herramientas del costado lateral',
-            hash: 't_1_2',
+            hash: 't_2_2',
           },
         ],
       },
@@ -106,32 +106,103 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Diseño Asistido por Computador (CAD) para circuitos impresos.',
+      referencia:
+        'Profe Juan Hernani. (2014). Taller #1. Iniciando AutoCad 2D -Entorno y creación del espacio de trabajo. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=D30g0iVceik&list=PLTllyBHG1d9WNA-n_Ju1BHxYTFYqh56zT',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Descarga e instalación de Autodesk Eagle.',
+      referencia:
+        'Departamento de Electrónica e Informática.(2020). Instalación de Eagle.  [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=tYlTN01DpdA',
+    },
+    {
+      tema: 'Herramientas básicas del <i>software</i> en la ventana Schematic.',
+      referencia:
+        'i2C Tech. (s.f.). ¡¡REVIEW completo del BORNEO SCHEMATICS‼ ¿El mejor programa de esquemáticos?. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=fI1BB_BVVBE',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'CAD',
+      significado:
+        ' Diseño Asistido por Computadora, utilizado para crear y optimizar diseños de circuitos electrónicos.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'PCB',
+      significado:
+        ' Circuito Impreso, una placa que conecta componentes electrónicos mediante pistas de cobre.',
+    },
+    {
+      termino: 'Esquemático',
+      significado:
+        'diagrama que representa las conexiones eléctricas entre los componentes de un circuito.',
+    },
+    {
+      termino: '<i>Board</i>',
+      significado:
+        'ventana en el software CAD donde se dispone físicamente el circuito en la placa PCB.',
+    },
+    {
+      termino: 'Componente',
+      significado:
+        'elemento físico del circuito, como resistencias, capacitores o transistores.',
+    },
+    {
+      termino: 'Simulación',
+      significado:
+        'proceso de probar el comportamiento de un circuito sin construirlo físicamente.',
+    },
+    {
+      termino: 'Editor de esquemas',
+      significado:
+        'herramienta en software CAD para dibujar el diagrama esquemático de un circuito.',
+    },
+    {
+      termino: '<i>Layout</i>',
+      significado: 'disposición física de los componentes en la placa PCB.',
+    },
+    {
+      termino: 'Pistas',
+      significado:
+        'conexiones de cobre en una PCB que unen los componentes electrónicos.',
+    },
+    {
+      termino: 'Encapsulado (<i>footprint</i>)',
+      significado:
+        'representación gráfica y dimensional de un componente para ubicarlo en la placa PCB.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Mitzner, K., Doe, B., Akulin, A., Suponin, A., & Müller, D. (2019). Complete PCB Design Using OrCAD Capture and PCB Editor (2nd ed.). Academic Press. ',
+      link:
+        'https://books.google.com/books/about/Complete_PCB_Design_Using_OrCAD_Capture.html?id=Uj6eDwAAQBAJ',
+    },
+    {
+      referencia:
+        'San Francisco Circuits. (2017). The Ultimate PCB Design Software Comparison Guide. ',
+      link:
+        'https://www.sfcircuits.com/pcb-school/pcb-design-software-comparison-guide',
+    },
+    {
+      referencia:
+        'Teel, J. (2016, September 7). PCB Design Software: Which One is Best?. Predictable Designs. ',
+      link:
+        'https://predictabledesigns.com/pcb-design-software-which-one-is-best/',
+    },
+    {
+      referencia:
+        'National Instruments. (2019, March 11). Importing ECAD Component Libraries into Multisim/Ultiboard. NI Community. ',
+      link:
+        'https://forums.ni.com/t5/Multisim-and-Ultiboard/Importing-ECAD-component-libraries-into-Multisim-Ultiboard/td-p/3902141',
     },
   ],
   creditos: [
@@ -154,8 +225,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Francisco Arnaldo Vargas Bermúdez',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -164,35 +240,35 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
