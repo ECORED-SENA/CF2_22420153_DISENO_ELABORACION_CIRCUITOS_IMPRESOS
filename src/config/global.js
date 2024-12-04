@@ -48,7 +48,7 @@ export default {
           {
             numero: '2.1',
             titulo:
-              'Herramientas básicas del <i>software</i> en la ventana Schematic',
+              'Herramientas básicas del <i>software</i> en la ventana <i>Schematic</i>',
             hash: 't_2_1',
           },
           {
@@ -147,7 +147,7 @@ export default {
     {
       termino: '<i>Board</i>',
       significado:
-        'ventana en el software CAD donde se dispone físicamente el circuito en la placa PCB.',
+        'ventana en el <i>software</i> CAD donde se dispone físicamente el circuito en la placa PCB.',
     },
     {
       termino: 'Componente',
@@ -162,7 +162,7 @@ export default {
     {
       termino: 'Editor de esquemas',
       significado:
-        'herramienta en software CAD para dibujar el diagrama esquemático de un circuito.',
+        'herramienta en <i>software</i> CAD para dibujar el diagrama esquemático de un circuito.',
     },
     {
       termino: '<i>Layout</i>',
@@ -182,25 +182,25 @@ export default {
   referencias: [
     {
       referencia:
-        'Mitzner, K., Doe, B., Akulin, A., Suponin, A., & Müller, D. (2019). Complete PCB Design Using OrCAD Capture and PCB Editor (2nd ed.). Academic Press. ',
+        'Mitzner, K., Doe, B., Akulin, A., Suponin, A., & Müller, D. (2019). <i>Complete PCB Design Using OrCAD Capture and PCB Editor</i> (2nd ed.). Academic Press. ',
       link:
         'https://books.google.com/books/about/Complete_PCB_Design_Using_OrCAD_Capture.html?id=Uj6eDwAAQBAJ',
     },
     {
       referencia:
-        'San Francisco Circuits. (2017). The Ultimate PCB Design Software Comparison Guide. ',
+        'San Francisco Circuits. (2017). <i>The Ultimate PCB Design Software Comparison Guide</i>. ',
       link:
         'https://www.sfcircuits.com/pcb-school/pcb-design-software-comparison-guide',
     },
     {
       referencia:
-        'Teel, J. (2016, September 7). PCB Design Software: Which One is Best?. Predictable Designs. ',
+        'Teel, J. (2016, September 7). <i>PCB Design Software: Which One is Best?</i>. Predictable Designs. ',
       link:
         'https://predictabledesigns.com/pcb-design-software-which-one-is-best/',
     },
     {
       referencia:
-        'National Instruments. (2019, March 11). Importing ECAD Component Libraries into Multisim/Ultiboard. NI Community. ',
+        'National Instruments. (2019, March 11). <i>Importing ECAD Component Libraries into Multisim/Ultiboard</i>. NI Community. ',
       link:
         'https://forums.ni.com/t5/Multisim-and-Ultiboard/Importing-ECAD-component-libraries-into-Multisim-Ultiboard/td-p/3902141',
     },
@@ -259,11 +259,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        //{
-        //  nombre: 'Luis Gabriel Urueta Alvarez',
-        //  cargo: 'Validador y vinculador de recursos educativos digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
+        {
+          nombre: 'Luis Gabriel Urueta Alvarez',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         //{
         //  nombre: 'Jaime Hernán Tejada Llano',
         //  cargo: 'Validador y vinculador de recursos educativos digitales',

@@ -36,42 +36,42 @@
                 .col-11.col-lg-5
                   figure
                     img(src='@/assets/curso/tema2/img4.png', alt='', style='width: 600px').m-auto
-              .row.justify-content-center.align-items-center(titulo="Paso 2")
+              .row.justify-content-center.align-items-center(titulo="Paso 3")
                 .col-11.col-lg-5.mb-4.mb-lg-0
                   p #[b Aceptar términos]
                   p.mb-0 Iniciar el asistente de instalación de Eagle, aceptar los términos seleccionando “#[i I accept the agreement]” y pulsar “#[i Next]”. 
                 .col-11.col-lg-5
                   figure
                     img(src='@/assets/curso/tema2/img5.png', alt='', style='width: 600px').m-auto
-              .row.justify-content-center.align-items-center(titulo="Paso 3")
+              .row.justify-content-center.align-items-center(titulo="Paso 4")
                 .col-11.col-lg-5.mb-4.mb-lg-0
                   p #[b Cambiar el directorio de instalación]
                   p.mb-0 Si se desea cambiar el directorio, presionar “#[i Browse]” y luego “#[i Next]”.
                 .col-11.col-lg-5
                   figure
                     img(src='@/assets/curso/tema2/img6.png', alt='', style='width: 600px').m-auto
-              .row.justify-content-center.align-items-center(titulo="Paso 4")
+              .row.justify-content-center.align-items-center(titulo="Paso 5")
                 .col-11.col-lg-5.mb-4.mb-lg-0
                   p #[b Crear acceso directo en el escritorio]
                   p.mb-0 Seleccionar la opción “#[i Create a desktop shortcut]”, hacer clic en “#[i Next]” y finalmente presionar “#[i Install]”.
                 .col-11.col-lg-5
                   figure
                     img(src='@/assets/curso/tema2/img7.png', alt='', style='width: 600px').m-auto
-              .row.justify-content-center.align-items-center(titulo="Paso 5")
+              .row.justify-content-center.align-items-center(titulo="Paso 6")
                 .col-11.col-lg-5.mb-4.mb-lg-0
                   p #[b Finalizar la instalación]
                   p.mb-0 Al finalizar, hacer clic en “#[i Finish]”.
                 .col-11.col-lg-5
                   figure
                     img(src='@/assets/curso/tema2/img8.png', alt='', style='width: 600px').m-auto
-              .row.justify-content-center.align-items-center(titulo="Paso 6")
+              .row.justify-content-center.align-items-center(titulo="Paso 7")
                 .col-11.col-lg-5.mb-4.mb-lg-0
                   p #[b Iniciar sesión en el #[i software]]
                   p.mb-0 Al iniciar el #[i software], se solicitará iniciar sesión. Si no se tiene una cuenta, crear y verificar una siguiendo las instrucciones enviadas al correo registrado.
                 .col-11.col-lg-5
                   figure
                     img(src='@/assets/curso/tema2/img9.png', alt='', style='width: 600px').m-auto
-              .row.justify-content-center.align-items-center(titulo="Paso 7")
+              .row.justify-content-center.align-items-center(titulo="Paso 8")
                 .col-11.col-lg-5.mb-4.mb-lg-0
                   p #[b Crear un nuevo proyecto]
                   p.mb-0 Acceder a #[i File] / #[i New] / #[i Project] y asignarle un nombre al nuevo proyecto.
@@ -81,13 +81,13 @@
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
-      h2 2.1 Herramientas básicas del #[i software] en la ventana Schematic
+      h2 2.1 Herramientas básicas del #[i software] en la ventana #[i Schematic]
     .row.align-items-center.mb-3
       .col-md-auto.mb-4.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img11.png', alt='', style='width: 80px').m-auto
       .col(data-aos="fade-left")
-        p.mb-0(data-aos="fade-right") Eagle se compone de dos ventanas principales: Schematic y Board. En la ventana Schematic se desarrolla el circuito a partir de un diseño esquemático utilizando la simbología de los componentes. En la ventana Board se disponen los componentes en su forma real y se conectan mediante pistas, mostrando el diseño final de la PCB.
+        p.mb-0(data-aos="fade-right") Eagle se compone de dos ventanas principales: #[i Schematic] y #[i Board]. En la ventana #[i Schematic] se desarrolla el circuito a partir de un diseño esquemático utilizando la simbología de los componentes. En la ventana #[i Board] se disponen los componentes en su forma real y se conectan mediante pistas, mostrando el diseño final de la PCB.
     .row.bg-c8
       .col-12
         .px-5
@@ -97,7 +97,7 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 1.] Abrir proyecto en Autodesk EAGLE
               figure
-                img(src='@/assets/curso/tema2/img13.png', alt='', style='width: 700px').m-auto
+                img(src='@/assets/curso/tema2/img13.png', alt='La imagen muestra el proceso para abrir un proyecto existente en Autodesk EAGLE. Aquí, se selecciona la opción Open Project en el menú contextual, lo que permite al usuario cargar un proyecto específico y acceder a sus archivos de diseño.', style='width: 700px').m-auto
             .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img14.png', alt='', style='width: 500px').m-auto
@@ -110,14 +110,14 @@
               .titulo-sexto.color-acento-contenido
                 p.mb-0 #[b Figura 2.] Interfaz de diseño en Autodesk EAGLE
               figure
-                img(src='@/assets/curso/tema2/img15.png', alt='', style='width: 700px').m-auto
-          p.mb-4(data-aos="fade-down") En la ventana de Schematic se encuentran las herramientas principales en el costado lateral, herramientas superiores y el área de trabajo donde se desarrolla el diagrama.
+                img(src='@/assets/curso/tema2/img15.png', alt='Se presenta la interfaz de trabajo de EAGLE en la vista de esquemático. En ella, se observan las herramientas laterales y superiores, que son esenciales para diseñar el circuito. También se destaca el área de trabajo donde se disponen los componentes y conexiones del esquema.', style='width: 700px').m-auto
+          p.mb-4(data-aos="fade-down") En la ventana de #[i Schematic] se encuentran las herramientas principales en el costado lateral, herramientas superiores y el área de trabajo donde se desarrolla el diagrama.
             .row.justify-content-center.align-items-center
               .col-lg-7(data-aos="fade-right")
                 .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 3.] Creación de un esquema en un proyecto de Autodesk EAGLE
                 figure
-                  img(src='@/assets/curso/tema2/img16.png', alt='', style='width: 700px').m-auto
+                  img(src='@/assets/curso/tema2/img16.png', alt='La imagen presenta a el menú de opciones de EAGLE, donde el usuario puede seleccionar Schematic para comenzar a crear o editar un diagrama esquemático dentro del proyecto actual. Esta selección permite iniciar el diseño del circuito eléctrico en un nuevo archivo de esquemático.', style='width: 700px').m-auto
               .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
                 figure
                   img(src='@/assets/curso/tema2/img17.png', alt='', style='width: 300px').m-auto

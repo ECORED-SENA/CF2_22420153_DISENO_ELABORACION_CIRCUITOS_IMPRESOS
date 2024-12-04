@@ -126,7 +126,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Qué software permite simulaciones de circuitos y el diseño en PCB?',
+            '¿Qué <i>software</i> permite simulaciones de circuitos y el diseño en PCB?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

@@ -19,7 +19,7 @@
                   .row.align-items-center.h-100
                     .col-12
                       .p-4.h-100
-                        p Las herramientas CAD (Diseño Asistido por Computadora, de sus siglas en inglés Computer Aided Design) se asocian comúnmente con el dibujo, aunque abarcan otras fases del diseño. 
+                        p Las herramientas CAD (Diseño Asistido por Computadora, de sus siglas en inglés #[i Computer Aided Design]) se asocian comúnmente con el dibujo, aunque abarcan otras fases del diseño. 
                         p.mb-0 La introducción de estas herramientas ha transformado el diseño de circuitos electrónicos, y muchas empresas han lanzado programas específicos para esta tarea. Actualmente, las interfaces gráficas facilitan el aprendizaje de estos programas para usuarios con conocimientos básicos.
             .col-lg-3(data-aos="fade-left")
               figure
@@ -70,7 +70,7 @@
                     tr
                       td SciLab
                       td Paquete científico para cálculos numéricos, realiza análisis en el tiempo y frecuencia (similar a MatLab).
-                      td Código Abierto (open source).
+                      td Código Abierto (#[i open source]).
                     tr
                       td SAPWIN
                       td Esquemático y Analizador de circuitos, se obtiene expresión matemática del circuito propuesto.
@@ -159,7 +159,7 @@
         figure
           img(src='@/assets/curso/tema1/img5.png', alt='', style='width: 80px').m-auto
       .col(data-aos="fade-left")
-        p.mb-0 Algunos programas permiten la creación de componentes personalizados y encapsulados (footprint), aunque este proceso requiere tiempo y dedicación. También es posible importar bibliotecas de otros CADs. A continuación, se presentan enlaces donde se pueden descargar versiones de demostración de diferentes software CAD para reconocimiento de interfaz o creación de productos iniciales:
+        p.mb-0 Algunos programas permiten la creación de componentes personalizados y encapsulados (#[i footprint]), aunque este proceso requiere tiempo y dedicación. También es posible importar bibliotecas de otros CADs. A continuación, se presentan enlaces donde se pueden descargar versiones de demostración de diferentes #[i software] CAD para reconocimiento de interfaz o creación de productos iniciales:
     .row.justify-content-center
       .col-lg-10(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
